@@ -1,4 +1,4 @@
-# A Challenge from Frontend Mentor
+# A Challenge from Frontend Mentor 👨‍💻
 
 - You can access this challenge [here](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI) 👈
 
