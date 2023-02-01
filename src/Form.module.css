@@ -1,0 +1,140 @@
+:root {
+  --white: hsl(0, 0%, 100%);
+  --orange: hsl(25, 97%, 53%);
+  --dark-blue: hsl(213, 19%, 18%);
+  --very-dark-blue: hsl(216, 12%, 8%);
+  --light-gray: #192025;
+  --medium-gray: hsl(216, 12%, 54%);
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background: var(--very-dark-blue);
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button{
+  cursor: pointer;
+}
+
+.form{
+  width: 345px;
+  background: var(--dark-blue);
+  padding: 2.5em;
+  border-radius: 25px;
+}
+
+.star{
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background: var(--light-gray);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title{
+  font-size: 24px;
+  text-align: left;
+  margin-top: 30px;
+  margin-bottom: 0;
+  color: var(--white);
+}
+
+.description{
+  color: var(--medium-gray);
+  text-align: left;
+  font-size: 16px;
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+
+.group{
+  display: flex;
+  justify-content: space-between;
+}
+
+.button{
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background: var(--light-gray);
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 0;
+  color: var(--medium-gray);
+  font-size: 14px;
+}
+
+.button:hover{
+  background: var(--orange);
+  color: var(--white);
+  transition: .5s;
+}
+
+.button:focus{
+  background: var(--medium-gray);
+  color: var(--white);
+  transition: .5s;
+}
+
+.submitButton{
+  width: 100%;
+  border-radius: 30px;
+  border: none;
+  padding: 10px 16px;
+  margin-top: 25px;
+  background: var(--orange);
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.submitButton:hover{
+  background: var(--white);
+  color: var(--orange);
+  transition: .5s;
+}
+
+.submitButton:disabled{
+  opacity: 50%;
+  pointer-events: none;
+}
+
+.thanksCard{
+  width: 345px;
+  background: var(--dark-blue);
+  border-radius: 25px;
+  padding: 2.5em;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.badge{
+  background: var(--light-gray);
+  margin-top: 30px;
+  padding: 5px 20px;
+  border-radius: 40px;
+  color: var(--orange);
+
+  font-size: small;
+  font-weight: bold;
+}
+
+.supportDescription{
+  color: var(--medium-gray);
+  text-align: center;
+  font-size: 14px;
+  margin-top: 15px;
+  margin-bottom: 0;
+}
